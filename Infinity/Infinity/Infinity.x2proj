@@ -7,6 +7,7 @@
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>Infinity</AssemblyName>
     <RootNamespace>Infinity</RootNamespace>
+    <ProjectGuid>{ef15da10-5015-4d52-a967-c527563bf38a}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
@@ -25,20 +26,46 @@
     <Content Include="Config\XComGameData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComIW_ArmorData.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComIW_WeaponData.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComIW_WeaponUpgradePack.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ExampleWeapon_ModShaderCache.upk" />
+    <Content Include="Content\UILibrary_InfinityWar.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_ModExampleWeapon_CV.upk" />
     <Content Include="ReadMe.txt" />
     <Content Include="ModPreview.jpg" />
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\InfinityWar\Classes\X2Ability_InfinityArmorGrantedAbilitySet.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\InfinityWar\Classes\X2Ability_ShocktrooperAbilitySet.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\InfinityWar\Classes\X2DownloadableContentInfo_InfinityWar.uc" />
     <Content Include="Src\InfinityWar\Classes\X2Effect_Burnt.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\InfinityWar\Classes\X2Item_InfinityAmmunitions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\InfinityWar\Classes\X2Item_InfinityArmors.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\InfinityWar\Classes\X2Item_InfinityMeleeWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\InfinityWar\Classes\X2Item_InfinityUpgrades.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\InfinityWar\Classes\X2Item_InfinityWeapons.uc">
